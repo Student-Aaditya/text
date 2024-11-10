@@ -13,6 +13,10 @@ h1{
     .content{
         display: inline-block;
     }
+    .img{
+        width: 20rem;
+        height: 30rem;
+    }
 }
 
 .container{
