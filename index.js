@@ -5,7 +5,7 @@ const port=7040;
 app.set("views",path.join(__dirname,"view"));
 app.set("view engine","ejs");
 
-app.get("/",(Req,res)=>{
+app.get("/",(req,res)=>{
     res.render("index.ejs");
 })
 
