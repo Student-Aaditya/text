@@ -40,7 +40,6 @@ label{
 }
 .content{
     display: flex;
-    flex-wrap: wrap;
     margin: 12rem 9rem;
 }
 .img{
