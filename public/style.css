@@ -8,14 +8,15 @@ h1{
 }
 @media  only screen and (max-width:600px) {
     h1{
-        color: blue;
-    }
-    .content{
-        display: inline-block;
+        color: rgb(0, 255, 123);
     }
     .img{
         width: 20rem;
         height: 30rem;
+    }
+    .content{
+        border: 10px solid rebeccapurple;
+        display: none;
     }
 }
 
