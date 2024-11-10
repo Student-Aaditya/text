@@ -1,6 +1,7 @@
 const express=require("express");
 const app=express();
 const port=7040;
+const path=require("path");
 
 app.set("views",path.join(__dirname,"view"));
 app.set("view engine","ejs");
