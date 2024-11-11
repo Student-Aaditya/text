@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <% if ( msg.length > 0 ) { %>
+        <p>Message: <%= msg %> </p>
+      <% } %>
 
     <div class="content">
 
@@ -21,7 +24,7 @@
             <h1><b>WELCOME USER</b></h1>
             <h2>SIGN-UP/LOG-IN</h2>
             <div class="page">
-                <form method="POST" action="/sign">
+                <form method="POST" action="/">
                     <div class="user">
                         <label for="username"> USERNAME:
                         </label>

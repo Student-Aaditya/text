@@ -16,7 +16,8 @@ h1{
     }
     .content{
         border: 10px solid rebeccapurple;
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
